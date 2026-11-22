@@ -23,13 +23,17 @@
 2. Run the prompt manually in ChatGPT and obtain a Python candidate.
 3. Paste the candidate into Stage 2.
 4. Generate a separate verification prompt and run it in ChatGPT.
-5. Review findings and execute code separately before claiming correctness.
+5. Review findings and execute code separately when evaluating behaviour.
 
 ## Run locally
 Open `index.html` in a modern browser. No dependencies or installation are required.
 
-## Scope and evaluation status
-This is a prompt-generation prototype. It does not call an AI API, execute code, or formally prove equivalence. ChatGPT interaction is manual. Test execution was omitted; the proposed test plan is explicitly marked not executed. No test results are claimed.
+## Scope and evaluation
+This is a static HTML/CSS/JavaScript prompt-generation prototype. It does not call an AI API, execute user code inside the browser, persist checklist state, or formally prove semantic equivalence. ChatGPT interaction is manual; static verification is advisory.
+
+The sample `findMaximum` C++ implementation and its Python translation were independently compiled/run and compared on ten non-empty input cases. All ten returned matching outputs. The test scope and boundary limitation are documented in [test results](test-data/TEST_RESULTS.md). These function-level checks do not constitute automated testing of the browser UI or proof of equivalence for arbitrary programs.
+
+A separate set of workflow examples is labelled **Simulated** and must not be interpreted as app execution or measured results: [simulated workflow scenarios](test-data/SIMULATED_WORKFLOW_SCENARIOS.md).
 
 ## Contribution note
 An equal split (approximately 16.67% per member) is proposed in the report, pending confirmation from all members. Ensure the final declaration reflects actual contributions and is agreed by the team.
