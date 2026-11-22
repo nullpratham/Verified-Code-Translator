@@ -1,0 +1,1 @@
+Complete Team ID, batch, faculty, prototype/repository/reel URLs; add genuine run screenshots and observed tests only if performed; obtain agreed contribution percentages from all six members. The current report honestly states that tests were not executed.
