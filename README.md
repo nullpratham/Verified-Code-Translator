@@ -39,5 +39,4 @@ A separate set of workflow examples is labelled **Simulated** and must not be in
 An equal split (approximately 16.67% per member) is proposed in the report, pending confirmation from all members. Ensure the final declaration reflects actual contributions and is agreed by the team.
 
 ## Reports
-- [M2 project report](docs/M2_forked.exe_Verified_Code_Translator.pdf)
-- [Technical report](docs/forked.exe_Technical_Report.pdf)
+The committed PDFs are earlier versions. Replace them with the updated PDFs from the final M2 package before treating the repository as submission-ready. See [report replacement notes](docs/REPORTS_PENDING_UPLOAD.md).
