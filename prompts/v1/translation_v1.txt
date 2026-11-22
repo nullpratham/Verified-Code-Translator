@@ -1,0 +1,6 @@
+You are an expert programmer. Translate the following C++ code into Python. Preserve the original logic and make the Python code easy to understand. Explain the main syntax differences.
+
+C++ CODE:
+{CPP_CODE}
+
+Return the Python code and a short explanation.
