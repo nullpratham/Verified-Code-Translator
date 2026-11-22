@@ -1,3 +1,9 @@
-# Reports pending as binary uploads
+# Report PDF upload
 
-The main Milestone 2 report and supporting technical report are available in the submission ZIP provided with this project. They still need to be uploaded as PDF binary files to this repository. Do not treat this note as a substitute for the PDFs.
+The updated PDFs are generated in the M2 package ZIP. They are not committed as binary files in this repository yet.
+
+Upload these two files from the ZIP into this `docs/` folder:
+- `M2_forked.exe_Verified_Code_Translator.pdf`
+- `forked.exe_Technical_Report.pdf`
+
+Download the current package from the ChatGPT conversation attachment. Do not rename the files unless you also update the README links.
