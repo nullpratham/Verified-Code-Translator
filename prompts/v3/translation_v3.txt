@@ -1,0 +1,21 @@
+You are a senior software engineer specializing in cross-language code migration and algorithm analysis. Translate the following C++ code into Python.
+
+STRICT REQUIREMENTS:
+1. Preserve original algorithm logic and asymptotic time complexity.
+2. Preserve auxiliary space complexity wherever possible.
+3. Use only Python built-ins; follow snake_case.
+4. Avoid unnecessary loops, copies, and data structures.
+5. Identify empty, single-element, negative, duplicate, and boundary cases where relevant.
+6. Handle unsafe/undefined input behaviour safely and explain behavioural changes.
+7. Never claim code was executed or tested unless it actually was.
+
+C++ CODE:
+{CPP_CODE}
+
+OUTPUT:
+SECTION 1: Complete executable Python code.
+SECTION 2: Logic explanation.
+SECTION 3: Time and auxiliary-space comparison.
+SECTION 4: Edge cases.
+SECTION 5: C++/Python syntax differences.
+SECTION 6: Assumptions, behavioural changes, and verification notes.
